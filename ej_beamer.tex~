@@ -1,0 +1,203 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Informe del número $\pi$]{Presentación sobre $\pi$ usando \textsc{beamer}}
+\author[Daniel M.V.]{Daniel Montesdeoca Villaverde}
+\date[23-04-2014]{23 de abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetheme{Madrid}
+\definecolor{pantone254}{RGB}{122,59,122}
+\definecolor{pantone3015}{RGB}{0,88,147}
+\definecolor{pantone432}{RGB}{56,61,66}
+
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc}
+  \hspace*{7.0cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+
+\section{Primera Sección}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+\begin{definicion}
+El número $\pi$ es un número irracional. El objetivo de la práctica es calcular 
+$\pi$ hasta 35 decimales (en realidad, el número $\pi$ tiene infinitos decimales
+y no puede ser representado mediante una fracción, aunque han habido intentos)
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Segunda Sección}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Fórmulas}
+
+\begin{block}{Ejemplos}
+  \begin{itemize}
+  \item
+  $$\int_{0}^{1} \! \frac{4}{1+x^2}\, dx = 4(atan(1) -atan(0)) = \pi $$
+  \pause
+
+  \item
+  $$ \int_{-\infty}^\infty e^{-x^2} \, dx = \sqrt{\pi}$$
+  \pause
+
+  \item
+  $$ \sin^2 \pi + \cos^2 \pi = 1 $$
+  \pause
+  
+  \item 
+  $$ \lim_{\alpha \to \infty} \frac{\cos \alpha}{\infty}\ = 0 $$ 
+  \pause
+  
+  \item
+  $$ \frac{-b + \sqrt{b^2 - 4ac}}{2a} $$
+  \pause
+  
+
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+\section{Fórmulas}
+\begin{block}{Ejemplos}
+ \begin{itemize}
+ \item
+  $$ \frac{-b + \sqrt{b^2 - 4ac}}{2a} $$
+ \end{itemize}
+
+\end{block}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Ejercicios}
+
+\subsection{Una subsección}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Título de la diapositiva}
+
+Texto de la diapositiva
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\subsection{Creación de diapositivas}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Diapositivas}
+
+\begin{definition}
+  Un ejemplo de definición
+\end{definition}
+
+\begin{example}
+  \begin{itemize}
+    \item <1-> Primero \pause
+    \item <2-> Segundo \pause
+    \item <3-> Tercero \pause
+    \item <4-> Cuarto  
+  \end{itemize}
+\end{example}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\subsection{Otra subseccion}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Este es otro Título}
+
+\begin{definicion}
+  Otra definición 
+\end{definicion}
+
+\begin{ejemplo}
+  \begin{enumerate}
+    \item
+      Primero
+      \pause
+
+    \item
+      Segundo 
+
+  \end{enumerate}
+\end{ejemplo}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Plan Estudios, 2011]{plan}  
+    Documento de verificación del grado. 
+    (2011) 
+
+    \beamertemplatebookbibitems
+    \bibitem[Guía Docente, 2013]{guia}  
+    Guía docente. 
+    (2013) 
+    {\small $http://eguia.ull.es/matematicas/query.php?codigo=299341201$}
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTAN]{latex} 
+    CTAN. {\small $http://www.ctan.org/$}
+    
+    \beamertemplatebookbibitems
+    \bibitem[Python]{tutorial}
+    Tutorial de Python {\small $https://www.python.org/$}
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\end{document}

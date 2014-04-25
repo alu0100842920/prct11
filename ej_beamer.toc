@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Primera Secci\IeC {\'o}n}{7}{0}{1}
+\beamer@sectionintoc {2}{Segunda Secci\IeC {\'o}n}{8}{0}{2}
+\beamer@sectionintoc {3}{F\IeC {\'o}rmulas}{14}{0}{3}
+\beamer@sectionintoc {4}{Ejercicios}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{Una subsecci\IeC {\'o}n}{14}{0}{4}
+\beamer@subsectionintoc {4}{2}{Creaci\IeC {\'o}n de diapositivas}{16}{0}{4}
+\beamer@subsectionintoc {4}{3}{Otra subseccion}{20}{0}{4}
+\beamer@sectionintoc {5}{Bibliograf\IeC {\'\i }a}{22}{0}{5}
